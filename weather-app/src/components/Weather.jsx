@@ -67,6 +67,7 @@ useEffect(()=>{
 },[])
 
   return (
+    
     <div className='weather'>
         <div className='search-bar'>
             <input type="text" ref={inputRef} placeholder='Search' />
